@@ -20,7 +20,7 @@ function HeaderTitle({ title, children, cta }) {
 
       return (
         <FontAwesomeIcon
-          icon={faPencilAlt}
+          icon={cta.icon || faPencilAlt}
           onClick={onClick}
           role="button"
           tabIndex="0"
